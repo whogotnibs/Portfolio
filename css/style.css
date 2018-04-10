@@ -200,3 +200,19 @@ h5 {
   font-size: 30px;
   font-weight: lighter;
 }
+
+#about {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+#contact {
+  margin-top: 350px;
+  margin-right: 20%;
+  text-align: left;
+}
+
+#email {
+  color: blue;
+  text-decoration: underline;
+}
