@@ -1,0 +1,80 @@
+<!-- ************************************************************************
+
+Portfolio
+Thomas Bell
+
+This is my portfolio
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Thom Bell</title>
+
+  <link rel="icon" href="../favicon.png">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Work+Sans" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="../js/script.js" content="text/javascript"></script>
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="headercontent">
+    <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
+      <h2 class="tab" style="right:220px"><a href="../index.html">Projects</a></h2><h2 style="right:200px">//</h2>
+      <h2 class="tab" style="right:120px"><a href="../about/index.html">About Me</a></h2><h2 style="right:98px">//</h2>
+      <h2 class="tab" style="right:30px"><a class="tab" href="../contact/index.html">Contact</a></h2>
+    </div>
+  </div>
+
+  <a class="prev" href="../concordian/index.html">
+    <img class="previmg" src="../images/buddies.png">
+    <p class="prevtext" style="right:168px">03.</p>
+  </a>
+
+  <a class="next" href="../conceptart/index.html">
+    <img class="nextimg" src="../images/forest.jpg">
+    <p class="nexttext" style="right:1px">05.</p>
+  </a>
+
+  <h3 style="color:white;top:280px;left:20px;font-size:80px;">04.</h3>
+  <img class="rellax" data-rellax-speed="-1" id=main src="../images/plant3.png">
+  <h3 class="rellax" data-rellax-speed="3" id="title" style="font-size:50px;left:180px;top:300px;transform:rotate(-90deg);">Web Flower <a id="link" target="_blank" href="https://whogotnibs.github.io/flower/">(webpage)</a></h3>
+  <h5><span id="year">2017</span><br><span id="sub">Web Game / App</span><br><span id="sub2">(JavaScript, HTML, CSS)</span></h5>
+  <br>
+  <p>
+    The purpose of <i>Web Flower</i> is to push the boundaries of what people will make time for in their daily routines.
+    Upon visiting the site, the responsibility of regularily watering a virtual flower is imposed onto users.
+    Once the flower dies it will remain dead on the webpage forever, and it is up to the user to decide how much they value this virtual thing.
+    <br><br>
+    To simulate life, the program uses a health variable that goes down with time and up by ‘watering’ the plant.
+    To exist in real time, the app calculates the amount of time that a user is away from the webpage, and the amount of health lost during that time.
+    The health is stored in the device’s localStorage, which is what allows the app to remember the flower's status.
+
+  </p>
+
+  <div id="imgs">
+    <img style="top:400px;left:100px;width:500px" src="images/mockup.jpg">
+    <img style="top:100px;right:10%;width:80%" src="images/growing.png">
+    <img style="top:600px;right:200px;width:300px;margin-bottom:60px;" src="images/mockup.png">
+  </div>
+
+  <script src="../js/rellax.min.js"></script>
+  <script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!-- ************************************************************************
+
+Portfolio
+Thomas Bell
+
+This is my portfolio
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Thom Bell</title>
+
+  <link rel="icon" href="../favicon.png">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Work+Sans" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="../js/script.js" content="text/javascript"></script>
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="headercontent">
+    <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
+      <h2 class="tab" style="right:220px"><a href="../index.html">Projects</a></h2><h2 style="right:200px">//</h2>
+      <h2 class="tab" style="right:120px"><a href="../about/index.html">About Me</a></h2><h2 style="right:98px">//</h2>
+      <h2 class="tab" style="right:30px"><a class="tab" href="../contact/index.html">Contact</a></h2>
+    </div>
+  </div>
+
+  <a class="prev" href="../toy/index.html">
+    <img class="previmg" src="../images/fam.jpg">
+    <p class="prevtext" style="right:177px">01.</p>
+  </a>
+
+  <a class="next" href="../concordian/index.html">
+    <img class="nextimg" src="../images/buddies.png">
+    <p class="nexttext" style="right:1px">03.</p>
+  </a>
+
+  <h3 style="color:white;top:280px;left:20px;font-size:80px;">02.</h3>
+  <img class="rellax" data-rellax-speed="-1" id=main src="../images/cub2.gif">
+  <h3 class="rellax" data-rellax-speed="3" id="title" style="font-size:70px;left:291px;top:300px;transform:rotate(-90deg);">Polar</h3>
+  <h5><span id="year">2017</span><br><span id="sub">Educational Video Game</span><br><span id="sub2">(Unity, Blender, Photoshop)</span><br><br>Partners: Laura Hirsh, Alex Kozina, Mirlande Germain<br>My Roles: concept, level design, pixel art</h5>
+  <br>
+  <p>
+    For my Game Studio class, I was paired up with the non-profit organization LEARN Quebec to make an educational game.
+    The game is intended to be complimentary to their curriculum and support a classroom discussion around the issue of climate change.
+    <i>Polar</i> teaches students about humanity’s impact on the environment, and has them consider futures both with and without change.
+    <br><br>
+    Eaches level teaches players about a new issue related to climate change, and has them navigate a polar bear through the Arctic terrain and experience the effects first-hand.
+    As the game progresses the gameplay gets more challenging as sea ice starts to melt, shipping routes are created, and the bear gets forced further from its natural habitat.
+  </p>
+
+  <div id="imgs">
+    <img style="top:100px;left:300px;width:500px" src="images/gameplay.jpg">
+    <img style="top:1090px;right:260px;width:400px" src="images/gameplay1.jpg">
+    <img style="top:600px;left:30px;width:300px" src="images/gameplay2.jpg">
+    <img style="top:900px;right:30px;width:200px;" src="../images/seal.gif">
+    <img style="top:-100px;left:40px;width:200px;" src="../images/bear.gif">
+    <img style="top:1400px;left:80px;width:150px;margin-bottom:50px;" src="../images/seal_corpse.gif">
+  </div>
+
+  <script src="../js/rellax.min.js"></script>
+  <script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+  </script>
+</body>
+
+</html>

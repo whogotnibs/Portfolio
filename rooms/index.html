@@ -1,0 +1,77 @@
+<!-- ************************************************************************
+
+Portfolio
+Thomas Bell
+
+This is my portfolio
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Thom Bell</title>
+
+  <link rel="icon" href="../favicon.png">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Work+Sans" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="../js/script.js" content="text/javascript"></script>
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="headercontent">
+    <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
+      <h2 class="tab" style="right:220px"><a href="../index.html">Projects</a></h2><h2 style="right:200px">//</h2>
+      <h2 class="tab" style="right:120px"><a href="../about/index.html">About Me</a></h2><h2 style="right:98px">//</h2>
+      <h2 class="tab" style="right:30px"><a class="tab" href="../contact/index.html">Contact</a></h2>
+    </div>
+  </div>
+
+  <a class="prev" href="../conceptart/index.html">
+    <img class="previmg" src="../images/forest.jpg">
+    <p class="prevtext" style="right:168px">05.</p>
+  </a>
+
+  <h3 style="color:white;top:280px;left:20px;font-size:80px;">06.</h3>
+  <img class="rellax" data-rellax-speed="-1" id=main src="../images/hole.png">
+  <h3 class="rellax" data-rellax-speed="3" id="title" style="font-size:60px;left:215px;top:300px;transform:rotate(-90deg);">ROOMS <a id="link" target="_blank" href="https://whogotnibs.github.io/dart450/assignment02/">(webpage)</a></h3>
+  <h5><span id="year">2017</span><br><span id="sub">Web Game</span><br><span id="sub2">(JavaScript, HTML, CSS)</span></h5>
+  <br>
+  <p>
+    <i>ROOMS</i> is a JavaScript-programmed game that I made for my Web Intervention class.
+    The guidelines of this project were to create an interactive web experience that addresses how the advancement of digital technologies has inadvertently brought about new social issues.
+    Through my project, I wanted to have the player consider how an interface has the ability to reveal and conceal the ideologies the designers behind it.
+    <br><br>
+    In the game, the player navigates in first person through a 3D maze.
+    They collect items and notes in the form of image, audio, and text files that are downloaded onto their computer.
+    The game's unfinished rooms, broken simulations, and generally bulky interface allow the player to peek behind the curtain of design, revealing the personality of its designer.
+  </p>
+
+  <div id="imgs">
+    <img style="top:100px;right:150px;width:500px" src="images/mockup.jpg">
+    <img style="top:1090px;right:260px;width:250px" src="../images/screen1.png">
+    <img style="top:600px;left:30px;width:300px" src="../images/rooms.gif">
+    <img style="top:900px;right:30px;width:300px;" src="images/compass.png">
+    <img style="top:1500px;left:160px;width:600px;margin-bottom:100px" src="images/dark.png">
+
+  </div>
+
+  <script src="../js/rellax.min.js"></script>
+  <script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+  </script>
+</body>
+
+</html>
