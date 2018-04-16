@@ -3,6 +3,7 @@ body, html {
   margin: 0;
 }
 
+
 #header {
   top: 0;
   position: fixed;
@@ -52,10 +53,10 @@ h1 {
 h2 {
   font-family: 'Work Sans';
   font-weight: normal;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   position: absolute;
-  bottom: 0;
+  bottom: -8px;
   display: block;
 }
 
@@ -161,9 +162,9 @@ a h3:hover {
 p {
   text-align: justify;
   margin-right: 30px;
-  margin-left: 300px;
+  margin-left: 270px;
   font-family: 'Work Sans';
-  font-size: 20px;
+  font-size: 15px;
 
 }
 
@@ -175,6 +176,7 @@ h5 {
   font-style: italic;
   /* font-weight: bold; */
   text-align: right;
+  margin-left: 30px;
 }
 
 #main {
@@ -215,4 +217,32 @@ h5 {
 #email {
   color: blue;
   text-decoration: underline;
+}
+
+.mobilenumber {
+  left:18%;
+  font-size:200px;
+  color: white;
+}
+
+.mobileimg {
+  width: 60%;
+  left: 20%;
+}
+
+.mobileproj {
+  position: fixed;
+  font-size: 150px;
+  right: -240px;
+  bottom: 90px;
+}
+
+@media only screen and (max-device-width: 600px){
+  #about {
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+  p {
+    margin-left: 30px;
+  }
 }
