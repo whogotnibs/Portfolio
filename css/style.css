@@ -67,8 +67,8 @@ h2 {
 
 .previmg {
   position: absolute;
-  width: 80px;
-  right: 197px;
+  width: 100px;
+  right: 255px;
   top: 130px;
   transition: opacity .3s ease-in-out;
 }
@@ -84,15 +84,22 @@ h2 {
 .prevtext {
   position: absolute;
   color: white;
-  top: 97px;
+  top: 115px;
   font-weight: bold;
   font-size: 60px;
   transition: color .3s ease-in-out;
 }
 
+#slash{
+  position: absolute;
+  right: 175px;
+  top: 53px;
+  font-size: 80px;
+}
+
 .nextimg {
   position: absolute;
-  width: 80px;
+  width: 100px;
   right: 30px;
   top: 130px;
   transition: opacity .3s ease-in-out;
@@ -109,7 +116,7 @@ h2 {
 .nexttext {
   position: absolute;
   color: white;
-  top: 97px;
+  top: 115px;
   font-weight: bold;
   font-size: 60px;
   transition: color .3s ease-in-out;
